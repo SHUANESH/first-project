@@ -35,14 +35,17 @@ img{
     box-shadow: 0px -10px 60px 22px rgba(28, 72, 122, 0.75);
     display:inline-block;
     margin: 90px;
+ 
 }
-img:hover{
+ img:hover{
     box-shadow: 0px -10px 60px 22px rgba(179, 35, 119, 0.75);
     height: 390px;
     width: 290px;
     cursor: pointer;
     opacity: 0.5;
+    
 }
+
 #link{
     color: #000;
     text-decoration: none;
@@ -51,12 +54,16 @@ img:hover{
     box-shadow: 0px -10px 60px 22px rgba(158, 7, 7, 0.75);
 }
 
-
-
-
-
-/*   #element3{
+/* #element3{
     margin: 2px;
     position:sticky;
     bottom:2px;
+}
+*/
+#box1{
+    background-image:linear-gradient(90deg,rgb(219, 231, 228),rgb(241, 137, 207),rgb(238, 209, 209) );
+    transition: background-image 4s ease-in-out;
+}
+#box1:hover{
+    background-image:linear-gradient(90deg,rgb(249, 250, 255),rgb(118, 160, 240),rgb(156, 178, 204) );
 }
